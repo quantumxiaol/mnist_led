@@ -1,10 +1,17 @@
 # MNIST LED Display
 
+## Environment
+
+    uv venv
+    source .venv/bin/activate
+    uv lock
+    uv sync
+
 ## TODO
 
-我想要通过硬件展示一个神经网络的运行。
+通过硬件展示一个神经网络的运行。
 
-我计划使用MNIST数据集，运行最简单的LeCNN，然后制作LED板子，一个灯珠代表一个神经元，激活亮，不激活不亮，最后一层层走到10个标签，代表0-9。
+计划使用MNIST数据集，运行最简单的LeCNN，然后制作LED板子，一个灯珠代表一个神经元，激活亮，不激活不亮，最后一层层走到10个标签，代表0-9。
 
 前面有28*28的LED屏幕，对应MNIST的数据集的图像大小。
 
@@ -22,3 +29,9 @@
 
     python train.py
     python visualize_inference.py
+
+## Interface
+
+<img src="./assert/interface.png" width="500">
+
+这个界面有一个28*28的LED屏，显示图像，最后神经元一层层激活，走到最后的标签上。
