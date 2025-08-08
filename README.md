@@ -18,3 +18,7 @@
     Final Test Accuracy: 99.17%
     Model saved to: ./saved_weights/lenet_mnist.pth
 
+## Usage
+
+    python train.py
+    python visualize_inference.py
