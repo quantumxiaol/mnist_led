@@ -3,7 +3,8 @@ from typing import Optional
 import os
 
 # 加载 .env 文件（从项目根目录开始）
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), ".env"))
+# load_dotenv(dotenv_path=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), ".env"))
+load_dotenv(".env")
 
 class Config:
     """

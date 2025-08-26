@@ -7,8 +7,8 @@ import torchvision.transforms as transforms
 from torchvision.datasets import MNIST
 from torch.utils.data import DataLoader
 
-from config import Config
-from LeNet import LeNet5
+from pythoncode.src.pythoncode.config import Config
+from pythoncode.src.pythoncode.network.LeNet import LeNet5
 
 
 # ----------------------------

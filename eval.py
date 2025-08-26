@@ -6,8 +6,8 @@ from torchvision.datasets import MNIST
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 
-from LeNet import LeNet5
-from config import Config
+from pythoncode.src.pythoncode.network.LeNet import LeNet5
+from pythoncode.src.pythoncode.config import Config
 
 
 # ----------------------------
