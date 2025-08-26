@@ -2,7 +2,7 @@ import sys
 import torch
 from torchvision.datasets import MNIST
 import torchvision.transforms as transforms
-from pythoncode.src.pythoncode.network.LeNet import LeNet5G
+from pythoncode.network.LeNet import LeNet5G
 import numpy as np
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QLabel, QPushButton, 
                              QVBoxLayout, QWidget, QHBoxLayout, QGridLayout, QScrollArea, QSpinBox, QFrame)
