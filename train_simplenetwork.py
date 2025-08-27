@@ -8,7 +8,7 @@ from torchvision.datasets import MNIST
 from torch.utils.data import DataLoader
 
 # 导入我们自定义的网络
-from pythoncode.network.SimpleNeuralNetwork import SimpleNeuralNetwork
+from pythoncode.network.SimpleNeuralNetwork import SimpleNeuralNetworkG as SimpleNeuralNetwork
 from pythoncode.config import Config
 
 # ----------------------------

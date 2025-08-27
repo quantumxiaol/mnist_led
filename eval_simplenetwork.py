@@ -6,7 +6,7 @@ from torchvision.datasets import MNIST
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 
-from pythoncode.network.SimpleNeuralNetwork import SimpleNeuralNetwork
+from pythoncode.network.SimpleNeuralNetwork import SimpleNeuralNetworkG as SimpleNeuralNetwork
 from pythoncode.config import Config
 
 
